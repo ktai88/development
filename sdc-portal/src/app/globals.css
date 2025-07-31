@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-astronBlue: #6C89C6;
+  --color-astronLigtBlue: #00ADEE;
+  --color-astronDarkBlue: #3A5896;
+  --color-astronBg: #181828;
+  --color-astronPanel: #202020;
+}
+
+body {
+  background-color: var(--color-black);
+  color:var(--color-white);
+}
