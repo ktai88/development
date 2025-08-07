@@ -1,3 +1,5 @@
+import { Button } from "@astron-sdc/design-system";
+import "@astron-sdc/design-system/styles.css";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +12,7 @@ export default function Home() {
           <a href="#"><img src="btn-dashboard.svg"></img></a>
         </nav>
       </aside>
+
 
       {/* Main Content */}
       <main className="flex-1 px-6 md:px-16 py-6">
