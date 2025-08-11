@@ -1,0 +1,18 @@
+# Directories
+nginx
+
+# File types
+*.yml
+*.svg
+*.snap
+
+# Any dotfiles/dirs
+\.*
+
+# Specific files
+Dockerfile
+Dockerfile.staged
+src/index.css
+/sonar-project.properties
+/public/
+/src/styles/output.css
